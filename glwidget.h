@@ -55,7 +55,7 @@
 #include <QOpenGLFunctions>
 #include <QOpenGLBuffer>
 
-QT_FORWARD_DECLARE_CLASS(QOpenGLShaderProgram);
+QT_FORWARD_DECLARE_CLASS(QOpenGLShaderProgram)
 QT_FORWARD_DECLARE_CLASS(QOpenGLTexture)
 
 class GLWidget : public QOpenGLWidget, protected QOpenGLFunctions
